@@ -6,7 +6,7 @@
 //  Copyright © 2019 Tom Senior. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 var icedCoffee = 0.0
 var gingerBreadLatte = 0.0
@@ -16,6 +16,7 @@ var muffin = 0.0
 var crisp = 0.0
 var sandwich = 0.0
 var bagel = 0.0
+var total = 0.0
 
 func icedCoffeeAddition() {
     icedCoffee += 3.00
@@ -58,7 +59,4 @@ func bagelAddition()  {
 }
 
 
-func totalPrice(){
-   
-}
- 
+
